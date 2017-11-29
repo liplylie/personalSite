@@ -1,2 +1,6 @@
 import angular from 'angular'
-angular.module('personal', [])
+
+const app = require('./components/app.js')
+
+export default angular.module('pWeb', [])
+.component('app', app)
